@@ -9,6 +9,8 @@ task :hola do
   puts "holda de Rake!"
 end
 
+end
+
 task :environment do
   require_relative './config/environment'
 end
