@@ -1,6 +1,12 @@
 desc 'outputs hello to the terminal'
+namespace :greeting
+
 task :hello do
   puts "hello from Rake!"
+end
+
+task :hola do
+  puts "holda de Rake!"
 end
 
 task :environment do
