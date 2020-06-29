@@ -5,7 +5,7 @@ task :hello do
 end
 
 task :hola do
-  puts "holda de Rake!"
+  puts "hola de Rake!"
 end
 
 end
